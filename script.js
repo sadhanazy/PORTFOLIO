@@ -53,10 +53,10 @@ const projectData = {
       ]
     ],
     evidence: [
-      "Custom Wazuh XML detection rules",
-      "Wazuh alert dashboard screenshots",
-      "Simulated SSH attack logs",
-      "MITRE ATT&CK technique mapping"
+      {
+        title: "SSH Brute Force Detection",
+        url: "https://github.com/sadhanazy/SSH-BruteForce-SOC-Lab"
+      },
     ]
   },
 
@@ -112,12 +112,10 @@ const projectData = {
       ]
     ],
     evidence: [
-      "Lab architecture diagram",
-      "Splunk dashboard screenshots",
-      "Custom SPL detection queries",
-      "Sample Linux and Windows logs",
-      "Investigation notes",
-      "GitHub repository — URL to be added"
+      {
+        title: "Splunk – Threat Hunting Lab",
+        url: "https://github.com/sadhanazy/Splunk-Threat-Hunting-Lab"
+      },
     ]
   },
 
@@ -171,10 +169,10 @@ const projectData = {
       ]
     ],
     evidence: [
-      "Python automation script",
-      "Sample input IP feeds and output CSV reports",
-      "API response screenshots",
-      "GitHub repository — ThreatIntel-SOAR-Automation (URL to be added)"
+      {
+        title: "ThreatIntel-SOAR-Automation",
+        url: "https://github.com/sadhanazy/ThreatIntel-SOAR-Automation"
+      }
     ]
   },
 
@@ -230,10 +228,12 @@ const projectData = {
       ]
     ],
     evidence: [
-      "Filtered packet capture — web_scan_forensics.pcap",
-      "Wireshark traffic analysis screenshots",
-      "List of discovered IoCs",
-      "GitHub repository — Web-Attack-Network-Forensics (URL to be added)"
+     evidence: [
+    {
+        title: "Web Attack & Network Forensics",
+        url: "https://github.com/sadhanazy/Web-Attack-Network-Forensics"
+    },
+]
     ]
   }
 };
